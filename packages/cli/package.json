@@ -1,0 +1,28 @@
+{
+  "name": "cli_gaurdianjs",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
+    "prepublishOnly": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cli_gaurdianjs/local-api": "^1.0.0",
+    "commander": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "esbuild": "0.8.26",
+    "typescript": "^4.1.3"
+  }
+}
